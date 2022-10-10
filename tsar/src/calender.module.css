@@ -1,0 +1,49 @@
+.MainContainerSplash{
+    /* background-color: red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    padding:4rem;
+}
+.MainContainerSplashMini{
+    /* background-color: red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    padding:4rem;
+}
+.MainContainerSplash h1{
+    font-size:80px;
+}
+.ApiStreetHolder{
+    background-color: pink;
+
+  
+} 
+
+.SubmitBtnForm{
+    background-color: white;
+    color: olive;  
+    height: 30px;
+    border:2ox solid black;
+    min-width: 400px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.SubmitBtnForm:hover{
+    background-color: olive;
+    color: white;  
+    cursor: pointer;
+}
+.InputHodler{
+    background-color: aquamarine;
+}
+.buttonContainer{
+    margin:2rem;
+     width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
