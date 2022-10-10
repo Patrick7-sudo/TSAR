@@ -1,11 +1,11 @@
-import{ useState, useEffect} from "react"
-import style from "./calender.module.css"
+import { useState, useEffect } from "react";
+import style from "./calender.module.css";
 import Calendar from "react-calendar";
 import { Link } from "react-router-dom";
 import "react-calendar/dist/Calendar.css";
 function Calenderly() {
- const [width, setWidth] = useState("");
- const [height, setHeight] = useState("");
+  const [width, setWidth] = useState("");
+  const [height, setHeight] = useState("");
   return (
     <section
       className={style.MainContainerSplash}
@@ -27,9 +27,9 @@ function Calenderly() {
           <button className={style.SubmitBtnForm}>Return</button>
         </Link>
 
-        <Link to="/">
+        <a href="https://common-teeth-find-77-89-156-173.loca.lt/">
           <button className={style.SubmitBtnForm}>Continue</button>
-        </Link>
+        </a>
       </div>
     </section>
   );
